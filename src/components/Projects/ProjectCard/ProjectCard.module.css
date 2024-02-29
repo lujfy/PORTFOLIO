@@ -1,0 +1,185 @@
+@import "../../../vars.css" ;
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    
+}
+
+.left .title {
+    font-weight: 500;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    padding: 10px 0px 10px 0px;
+    
+}
+
+.left .title h3 {
+    font-size: 37px;
+}
+
+.left .projectImg img{
+    width : 500px ;
+    height: 300px;
+}
+
+.left .projectImg {
+    margin-left: 20px;
+    box-shadow: rgba(0, 119, 255, 0.3) 0px 19px 38px, rgba(2, 88, 247, 0.22) 0px 15px 12px;
+}
+
+.left .projectImg:hover {
+    box-shadow: rgba(2, 2, 255, 0.25) 0px 50px 100px -20px, rgba(7, 30, 238, 0.3) 0px 30px 60px -30px;
+}
+
+.right {
+    margin-left: 20px;
+}
+
+.right .summary h4 {
+    font-weight: 500;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    padding: 10px 0px 10px 0px;
+    font-size: 37px;
+}
+
+.right .summary p {
+    letter-spacing: 1.75px;
+    font-size: 20px;
+    color: rgb(212, 210, 210);
+    text-decoration: none;
+    
+}
+
+.right .tech {
+    padding-top: 20px;
+    
+}
+
+.right .tech h4 {
+    letter-spacing: 1.75px;
+    font-size: 25px;
+}
+
+.right .tech ul {
+
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.right .tech li {
+    margin: 17px 5px 17px 5px;
+    padding: 15px;
+    
+    text-decoration: none;
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    border-radius: 15px;
+
+}
+
+.right .btn {
+    margin-top: 20px;
+}
+
+.right .btn a {
+  text-decoration: none; 
+  color: var(--color-text);
+  margin: 30px 30px 30px 0px;
+  background-color: none;
+  padding: 13px;
+  border: 1px solid white;
+  
+}
+
+.right .btn a:hover{
+    background-color:  var(--color-primary);
+    box-shadow: rgba(0, 119, 255, 0.3) 0px 19px 38px, rgba(2, 88, 247, 0.22) 0px 15px 12px;
+    
+    
+}
+
+@media  screen and (max-width : 830px) { 
+    .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 10px;
+        background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
+        box-shadow: 0 16px 14px 0 #04152d;
+        padding: 18px 24px;
+        max-width: 345px;
+        margin-bottom: 25px;
+        
+    }
+
+    .left .title h3{
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .left .title h5{
+        display: none;
+    }
+
+    .left .projectImg img{
+        width: 300px;
+        height: 280px;
+    }
+
+    .left .projectImg{
+        margin-left: 0;
+        
+    }
+
+    .right {
+        margin-left: 0;
+    }
+
+    .right .summary h4{
+        display: none;
+    }
+    .right .summary p{
+        font-size: 14px;
+    }
+    .right .tech h4 {
+        display: none;
+    }
+
+    .right .tech ul {
+        gap: 2px;
+    }
+
+    .right .tech li {
+        margin: 5px;
+        padding: 5px;
+        
+        text-decoration: none;
+        background-color: var(--color-primary);
+        color: var(--color-text);
+        border-radius: 5px;
+    
+    }
+
+    .right .btn {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .right .btn a {
+        text-decoration: none; 
+        color: var(--color-text);
+        margin: 10px 10px 10px 0;
+        background-color: none;
+        padding: 8px;
+        border: 1px solid white;
+        text-align: center;
+      }
+}
+

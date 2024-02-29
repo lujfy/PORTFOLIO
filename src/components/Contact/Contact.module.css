@@ -1,0 +1,181 @@
+@import "../../vars.css" ;
+
+.container{
+    color: var(--color-text);
+    margin-top: 120px;
+    background-color: var(--color-secondary);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100vw;
+    padding: 50px 10%;
+    gap: 10px;
+}
+
+.text h2{
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+.text p {
+    font-size: 30px;
+    font-weight: 400;
+
+}
+
+.text .mail{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+.links {
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.links a {
+    width: 80px;
+    height: 80px;
+    background-color: var(--color-text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: 0.3s all ease-in-out;
+}
+
+.links a span {
+    position: absolute;
+    color: var(--color-text);
+    transform: translate(-70px);
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s all cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition-delay: 0s;
+    
+}
+
+.links a svg {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+.links a span::before {
+    position: absolute;
+    content: '';
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #fff;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+a.facebook span {
+    background-color: var(--facebook);
+}
+
+a.facebook span::before {
+    border-top-color: var(--facebook);
+}
+
+a.github span {
+    background-color: var(--twitter);
+}
+
+a.github span::before {
+    border-top-color: var(--twitter);
+}
+
+a.linkedin span {
+    background-color: var(--linkedin);
+}
+
+a.linkedin span::before {
+    border-top-color: var(--linkedin);
+}
+
+a.instagram span {
+    background-color: var(--instagram);
+}
+
+a.instagram span::before {
+    border-top-color: var(--instagram);
+}
+
+a:hover {
+    box-shadow: -20px 20px 30px rgba(0, 0, 0, 0.5);
+}
+
+a:hover span {
+    transform: translateY(-80px);
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0.2s;
+}
+
+a.facebook:hover {
+    background-color: var(--facebook);
+}
+
+a.github:hover {
+    background-color: var(--twitter);
+}
+
+a.linkedin:hover {
+    background-color: var(--linkedin);
+}
+
+a.instagram:hover {
+    background-color: var(--instagram);
+}
+
+@media  screen and (max-width : 830px) { 
+    .container{
+        flex-direction: column;
+    }
+
+    .text h2{
+        font-size: 30px;
+        font-weight: 700;
+        letter-spacing: 4px;
+    }
+    
+    .text p {
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+    .links {
+        margin-top: 40px;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        
+    }
+
+    .links a {
+        width: 50px;
+        height: 50px;
+
+        gap: 20px;
+        
+    }
+
+    .links a span {
+        padding: auto;
+    }
+}
