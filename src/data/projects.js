@@ -9,8 +9,9 @@ export const PROJECTS = [
         "source": "https://github.com/lujfy/chat-clone"
       },
 
+
       {
-        "title": "Todo App",
+        "title": "FullStack Todo App",
         "smallTitle" : "Task app" ,
         "imageSrc": "projects/3.png",
         "description": "ghi nhớ những việc quan trọng mà bạn cần làm thông qua Todo App , ứng dụng được làm để có thể hiểu hơn về backend",
@@ -20,14 +21,25 @@ export const PROJECTS = [
       },
 
       {
-        "title": "Etch a sketch",
-        "smallTitle" : "Microsoft paint clone" ,
-        "imageSrc": "projects/4.png",
-        "description": "ứng dụng vẽ vời được tạo ra để thử nghiệm về web và độ nhạy của giao diện web",
-        "skills": ["Webpack" , "Node" ],
-        "demo": "https://lujfy.github.io/etch-a-sketch-odin/",
-        "source": "https://github.com/lujfy/etch-a-sketch-odin"
+        "title": "NextBlog",
+        "smallTitle" : "Corporations Blogging Website" ,
+        "imageSrc": "projects/5.png",
+        "description": "Chia sẻ , viết nên những cau chuyện của bạn thông qua Next Blog , A Serverless Website ",
+        "skills": ["Nextjs" , "Node" , "MongoDB" , "Express" ],
+        "demo": "https://main--nextblog5123.netlify.app/",
+        "source": "https://github.com/lujfy/NextBlog"
       },
+
+      {
+        "title": "Todo App",
+        "smallTitle" : "Local Storage task app" ,
+        "imageSrc": "projects/6.png",
+        "description": "Năng động hơn , làm chủ các công việc của bạn với task app này",
+        "skills": ["Reactjs"],
+        "demo": "https://main--localtodoapp.netlify.app/",
+        "source": "https://github.com/lujfy/local-todoApp"
+      },
+
 
       
 ]
