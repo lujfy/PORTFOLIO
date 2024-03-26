@@ -7,7 +7,7 @@ import styles from './Experience.module.css'
 function Experience() {
   return (
     <section className={styles.container} id='experience'>
-      <h2 className={styles.title}>Toolskit và kỹ năng</h2>
+      <h2 className={styles.title}>Toolkits and skills</h2>
 
       <div className={styles.content}>
         <div className={styles.box}>
