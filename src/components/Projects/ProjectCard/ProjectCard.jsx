@@ -20,12 +20,12 @@ const ProjectCard = ({project}) => {
 
                 <div className={styles.right}>
                   <div className={styles.summary}>
-                    <h4>Về dự án</h4>
+                    <h4>Overview</h4>
                     <p>{project.description}</p>
                   </div>
 
                   <div className={styles.tech}>
-                    <h4>Công nghệ được dùng :</h4>
+                    <h4>Tech used :</h4>
                     <ul>
                       {
                         project.skills.map((skill , id) => {
