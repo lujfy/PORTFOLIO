@@ -8,7 +8,7 @@ function Projects() {
   return (
     <section id='projects'>
       <div className={styles.container}>
-        <h2 className={styles.title} >Dự án</h2>
+        <h2 className={styles.title} >Projects</h2>
 
         
         {PROJECTS.map((project , id) => {
