@@ -8,8 +8,8 @@ function Contact() {
     <footer id='contact' className={styles.container}>
 
       <div className={styles.text}>
-        <h2>Liên hệ</h2>
-        <p>Nếu bạn muốn hợp tác với tôi !</p>
+        <h2>Contact</h2>
+        <p>If you want to work with me!</p>
         <div className={styles.mail}>
           <img src={getImageUrl('contact/email.svg')} /> 
           <p>lujfy50@gmail.com</p>
