@@ -6,13 +6,12 @@ function Hero() {
   return (
     <section className={styles.container}>
         <div className={styles.content}>
-            <h1 className={styles.title}>Chào, tôi là Trường</h1>
+            <h1 className={styles.title}>Hi , I'm Truong</h1>
 
-            <p className={styles.description}>Tôi là full-stack developer với 2 năm kinh 
-                nghiệm làm việc với React và NodeJS. Nếu bạn muốn biết thêm về tôi ↓
+            <p className={styles.description}>I'm a full stack developer with 1.5 years of experiences with React and NodeJS
             </p>
 
-            <a href='#about' className={styles.contactBtn}>Liên hệ</a>
+            <a href='#contact' className={styles.contactBtn}>Contact</a>
             
         </div>
 
