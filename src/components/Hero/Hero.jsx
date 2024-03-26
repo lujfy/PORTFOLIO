@@ -8,7 +8,7 @@ function Hero() {
         <div className={styles.content}>
             <h1 className={styles.title}>Hi , I'm Truong</h1>
 
-            <p className={styles.description}>I'm a full stack developer with 1.5 years of experiences with React and NodeJS
+            <p className={styles.description}>I'm a full stack developer with 1.5 years <br/> of experiences with React and NodeJS
             </p>
 
             <a href='#contact' className={styles.contactBtn}>Contact</a>
